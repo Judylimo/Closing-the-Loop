@@ -2,21 +2,23 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainContent from './components/MainContent';
+import SignupForm from './components/pages/signup_form';
 
 
 
 function App() {
   return (
    <>
-    <Router>
-        <Navbar />
+    <BrowserRouter>
         <Routes>
-          <Route path='/' exact component={<Home />} />         
+          <Route path='/' element={<Navbar />}>
+            <Route index element={<Home/>}/>
+            <Route path='sign-up' exact element={<SignupForm/>}/>
+          </Route>
         </Routes>
-        <MainContent />
-      </Router>
+      </BrowserRouter>
    </>
       
    
