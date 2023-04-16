@@ -1,0 +1,229 @@
+/* body background color */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  font-family: "Montserrat";
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* top section */
+.top {
+  background-color: #ac8c60;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  background: linear-gradient(to bottom, #5e6664, #db979c);
+}
+
+.top h1 {
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+
+.top p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  background-color: burlywood;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* mid section */
+.mid {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(173, 240, 195),
+    rgb(108, 136, 177)
+  );
+}
+
+.mid-container {
+  width: 80%;
+  margin: 100px;
+}
+
+.mid-title {
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  animation: fade-in-up 1s forwards;
+  background: linear-gradient(to bottom right, #f8a7ff, #3c91e6);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.ourStory{
+    font-size: 2rem;
+    color: white;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+
+  background-color: rgb(204, 151, 151);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.member-image {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+
+.member-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.member-name {
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500  ;
+  margin-bottom: 5px;
+
+}
+
+.member-position {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #aaa;
+}
+
+.member-bio {
+  font-size: 16px;
+  color: rgb(13, 13, 13);
+  font-weight: bold;
+}
+
+.fade-in-up {
+  opacity: 1;
+  transform: translateY(50px);
+  transition: opacity 4s ease, transform 4s ease;
+}
+
+.fade-in-up.visible {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.bottom-container {
+  background-color: #4d4d4d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.quote-container {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.signup-button {
+  background-color: #56b949;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.signup-button:hover {
+  background-color: #1ce0b6;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer {
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: #f44336;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+div h2 {
+  color: #202124;
+  margin-bottom: 10px;
+}

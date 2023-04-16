@@ -41,4 +41,41 @@
     color: #242424;
     transition: 250ms;
   }
-  
+
+
+
+
+
+  .navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-logo {
+  color: #fff;
+}
+
+.nav-links {
+  color: #fff;
+}
+
+.menu-icon {
+  color: #fff;
+}
+
+.btn--outline {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.active {
+  background-color: #111;
+}
+
+.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+
+

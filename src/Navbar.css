@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background-color: burlywood;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -24,7 +24,9 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
     display: flex;
     align-items: center;
   }
@@ -47,6 +49,10 @@
   
   .nav-item {
     height: 80px;
+    font-weight: 800;
+    font-size: 1.5rem;
+    
+    
   }
   
   .nav-links {
@@ -56,6 +62,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+   
   }
   
   .nav-links:hover {
@@ -69,6 +76,7 @@
   
   .nav-links-mobile {
     display: none;
+    
   }
   
   .menu-icon {
@@ -156,4 +164,3 @@
       transition: 250ms;
     }
   }
-  
